@@ -1,0 +1,21 @@
+POST http://localhost:8080/colors
+Content-Type: application/json
+
+{
+  "name" : "red",
+  "specification" : "Dark and bright"
+}
+
+###
+POST http://localhost:8080/colors
+Content-Type: application/json
+
+{
+  "name" : "brown"
+}
+
+###
+GET http://localhost:8080/colors
+Accept: application/json
+
+###

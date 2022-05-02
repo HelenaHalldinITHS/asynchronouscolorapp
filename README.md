@@ -1,7 +1,6 @@
 ## Laboration 2 - Webservice och integrationer
 
-Denna kod innehåller en implementation av ett web api för hantering av enkel information, i mitt fal om färger.
-Det finns endast två enpoints:
+Denna kod innehåller en implementation av ett web api för hantering av enkel information, i mitt fal om färger. Applikationen är skriven med hjälp av https://micronaut.io/, Graal vm och MongoDB. Det finns endast två enpoints:
 
 - GET `localhost:8080/colors` som returnerar alla färger
 
